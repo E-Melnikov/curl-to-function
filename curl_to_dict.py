@@ -80,7 +80,7 @@ def parse(curl):
             'headers': quoted_headers,
             'cookies': cookie_dict,
             'params': params,
-            'data': post_data
+            'data': post_data_json
         }
         return curl_dict
     except Exception as e:
